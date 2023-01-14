@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "PoetsenOne-Regular";
+    src: url('../fonts/PoetsenOne-Regular.ttf') format("truetype");
+    font-display: fallback;
+  }
+
+.h1{
+font-family: PoetsenOne-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 3.2em;
+}
+.h2{
+    font-family: PoetsenOne-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.3em;
+    }
+
+h1,h2,h3,h4,h5,h6,span,p{
+    font-family: PoetsenOne-Regular;
+}
+p{
+    font-size: 1.2em;
+}
+
+.text-primary{
+    color: #0085FF!important;
+    font-family: PoetsenOne-Regular;
+}
+.bg-primary{
+    background-color: #0085FF!important;
+}
+
+.text-warning{
+    color: #FFA024!important;
+    font-family: PoetsenOne-Regular;
+}
+.text-alb{
+    color: #fff!important;
+    font-family: PoetsenOne-Regular;
+}
+nav.shadow-transition .collapse ul li a.text-alb{
+    color: #FFA024!important;
+  }
+.bg-warning{
+    background-color: #FFA024!important;
+    
+}
+.text-negru{
+    color: #112D58!important;
+    font-family: PoetsenOne-Regular;
+
+}
+.bg-negru{
+    background-color: #112D58!important;
+
+}
+.f-78{
+    font-size: 2em;
+}
+.f-menu{
+    font-size: 1.3em;
+}
+input.input-web::placeholder{
+    font-size: 1.3em;
+    color: #FFA024!important;
+    font-family: PoetsenOne-Regular;
+    text-align: center;
+}
+@media (max-width: 991.98px) {
+    .h2{
+        font-family: PoetsenOne-Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1em;
+        }
+        .h2.text-primary,.h2.text-warning{
+            font-family: PoetsenOne-Regular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2em;
+            text-align: center;
+            }
+    .f-78{
+    font-size: 1.6em;
+}
+.reglaj-sus{
+    margin-top: 11em !important;
+}
+
+}
