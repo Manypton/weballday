@@ -14,12 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.blade.php');
 });
-
-Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //route for projects    
 Route::get('/projects', [App\Http\Controllers\ProjectController::class, 'index'])->name('projects.index');
+// Auth::routes();
